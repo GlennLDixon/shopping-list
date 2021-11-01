@@ -19,4 +19,6 @@ const shoppingList = [
     }
 ]
 
-console.log(shoppingList)
+for (const list of shoppingList) {
+    console.log(`this is my my list ${list.food}`)
+}
